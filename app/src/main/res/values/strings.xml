@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GuessBrawlStars</string>
+    <string name="start">Начать Угадывать</string>
+    <string name="message_press_back_one_more_time">Нажмите кнопку "Назад" еще раз, чтобы выйти из игры</string>
+    <string name="character_leon">Леон</string>
+    <string name="character_spike">Спайк</string>
+</resources>

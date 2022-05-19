@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_menu" />
+
+    <ImageView
+        android:id="@+id/who"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="620dp"
+        android:maxHeight="620dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/who" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:maxWidth="400dp"
+        android:maxHeight="400dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/button_start_layout"
+        android:layout_width="390dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_start">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/start"
+            android:textSize="32dp"
+            android:fontFamily="@font/pusia_bold"
+            android:shadowColor="@color/black"
+            android:shadowRadius="7"
+            android:textAllCaps="true"
+            android:background="#00000000" />
+
+        <!--<ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_start"
+            android:scaleType="fitXY"
+            /> -->
+    </RelativeLayout>
+
+</RelativeLayout>
